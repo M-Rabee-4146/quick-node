@@ -1,4 +1,4 @@
-# @rabee/generate-app 🚀
+# fast-node 🚀
 
 A powerful and intuitive CLI tool designed to jumpstart your full-stack development. Quickly scaffold Node.js backend projects with your choice of database, automated dependency installation, and seamless VS Code integration.
 
@@ -31,7 +31,7 @@ cd Practice-fs
 # Install dependencies
 npm install
 
-# Link the CLI tool (Optional, to use 'generate-app' command)
+# Link the CLI tool (Optional, to use 'fast-node' command)
 npm link
 ```
 
@@ -40,7 +40,7 @@ npm link
 Simply run the command and follow the prompts:
 
 ```bash
-generate-app
+fast-node
 ```
 
 Or run it directly using Node:

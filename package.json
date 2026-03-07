@@ -1,16 +1,20 @@
 {
-  "name": "@rabee/generate-app",
+  "name": "fast-node",
   "version": "1.0.0",
-  "description": "",
+  "description": "A professional CLI tool to scaffold structured Node.js projects with MongoDB/SQLite templates.",
   "main": "installer.js",
   "bin": {
-    "generate-app": "./installer.js"
+    "fast-node": "./installer.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "files": ["installer.js","Configuration/","template/"],
+  "files": [
+    "installer.js",
+    "Configuration/",
+    "template/"
+  ],
   "author": "",
   "license": "ISC",
   "type": "module",
