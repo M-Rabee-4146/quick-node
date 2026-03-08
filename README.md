@@ -1,4 +1,4 @@
-# fast-node 🚀
+# quick-node 🚀
 
 A powerful and intuitive CLI tool designed to jumpstart your full-stack development. Quickly scaffold Node.js backend projects with your choice of database, automated dependency installation, and seamless VS Code integration.
 
@@ -23,15 +23,15 @@ Clone the repository and install the dependencies globally to use the CLI from a
 
 ```bash
 # Clone the repository
-git clone https://github.com/Muhammad-Rabee/fast-node.git
+git clone https://github.com/Muhammad-Rabee/quick-node.git
 
 # Navigate to the directory
-cd fast-node
+cd quick-node
 
 # Install dependencies
 npm install
 
-# Link the CLI tool (Optional, to use 'fast-node' command)
+# Link the CLI tool (Optional, to use 'quick-node' command)
 npm link
 ```
 
@@ -40,7 +40,7 @@ npm link
 Simply run the command and follow the prompts:
 
 ```bash
-fast-node
+quick-node
 ```
 
 Or run it directly using Node:

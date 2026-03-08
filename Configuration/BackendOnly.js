@@ -13,7 +13,13 @@ export const BackendOnly = async (newPath, backendType, BackendName) => {
     await fsExtra.ensureDir(`${newPath}/Backend`);
 
     await fsExtra.copy(`${templatePath}/server${backendType}`, `${newPath}/Backend`);
+    const oldEnvPath = path.join(`${newPath}/Backend`, '.env.example');
+    const newEnvPath = path.join(`${newPath}/Backend`, '.env');
 
+    if (await fsExtra.pathExists(oldEnvPath)) {
+        await fsExtra.move(oldEnvPath, newEnvPath);
+        console.log(chalk.blue("  - Created .env file from template"));
+    }
     console.log(chalk.yellow("\nInstalling Dependencies.... This might take some Time\n"));
     console.time("\nInstallation Time");
 

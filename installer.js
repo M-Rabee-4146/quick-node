@@ -5,6 +5,7 @@ import { BackendOnly } from "./Configuration/BackendOnly.js";
 import { execSync } from "child_process";
 import path from "path";
 import chalk from "chalk";
+import { FrontendOnly } from "./Configuration/FrontendOnly.js";
 
 const practice = async () => {
     try {
@@ -70,14 +71,14 @@ const practice = async () => {
         })
 
         if (answer.FrontendBackend == 'Both') {
-            await fsExtra.ensureDir(`${newPath}/Frontend`);
+            await FrontendOnly(newPath);
             await BackendOnly(newPath, answer.BackendType, answer.ProjectName);
             if (answer.OpenVsCode == 'Yes') {
                 execSync(`code ${newPath}/Frontend`, { stdio: 'inherit' });
                 execSync(`code ${newPath}/Backend`, { stdio: 'inherit' });
             }
         } else if (answer.FrontendBackend == 'Frontend') {
-            await fsExtra.ensureDir(`${newPath}/Frontend`);
+            await FrontendOnly(newPath);
             if (answer.OpenVsCode == 'Yes') {
                 execSync(`code ${newPath}/Frontend`, { stdio: 'inherit' });
             }
@@ -92,7 +93,7 @@ const practice = async () => {
 
     } catch (error) {
 
-        console.log(chalk.red.bgWhiteBright("Got the error While Creating Project : \n"), error);
+        console.log(chalk.bold.red.bgWhiteBright("\nGot the error While Creating Project : \n"), error);
     }
 }
 

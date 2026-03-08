@@ -1,10 +1,10 @@
 {
-  "name": "fast-node",
+  "name": "quick-node",
   "version": "1.0.0",
   "description": "A professional CLI tool to scaffold structured Node.js projects with MongoDB/SQLite templates.",
   "main": "installer.js",
   "bin": {
-    "fast-node": "./installer.js"
+    "quick-node": "./installer.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
