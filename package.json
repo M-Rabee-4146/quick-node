@@ -1,10 +1,10 @@
 {
-  "name": "quick-node",
+  "name": "@rabee/quick-node",
   "version": "1.0.0",
   "description": "A professional CLI tool to scaffold structured Node.js projects with MongoDB/SQLite templates.",
   "main": "installer.js",
   "bin": {
-    "quick-node": "./installer.js"
+    "rabee-quick-node": "./installer.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
