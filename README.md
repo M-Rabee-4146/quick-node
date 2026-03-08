@@ -1,6 +1,6 @@
-# rabee-quick-node 🚀
+# rabee-node-cli 🚀
 
-[![npm version](https://img.shields.io/npm/v/rabee-quick-node.svg)](https://www.npmjs.com/package/rabee-quick-node)
+[![npm version](https://img.shields.io/npm/v/rabee-node-cli.svg)](https://www.npmjs.com/package/rabee-node-cli)
 
 A powerful and intuitive CLI tool designed to jumpstart your full-stack development. Quickly scaffold Node.js backend projects with your choice of database, automated dependency installation, and seamless VS Code integration.
 
@@ -17,6 +17,14 @@ A powerful and intuitive CLI tool designed to jumpstart your full-stack developm
 
 ---
 
+## 📋 Requirements
+
+Before using this tool, ensure you have the following installed:
+- **Node.js**: v16.x or higher (Recommended: Latest LTS)
+- **NPM**: v8.x or higher
+
+---
+
 ## 🚀 Getting Started
 
 ### Installation
@@ -25,7 +33,7 @@ A powerful and intuitive CLI tool designed to jumpstart your full-stack developm
 Install the tool globally to use it from anywhere:
 
 ```bash
-npm install -g rabee-quick-node
+npm install -g rabee-node-cli
 ```
 
 #### 🛠 From Source (Development)
@@ -33,10 +41,10 @@ If you want to contribute or run the latest version from source:
 
 ```bash
 # Clone the repository
-git clone https://github.com/M-Rabee-4146/quick-node.git
+git clone https://github.com/M-Rabee-4146/rabee-node-cli.git
 
 # Navigate to the directory
-cd quick-node
+cd rabee-node-cli
 
 # Install dependencies
 npm install
@@ -50,7 +58,7 @@ npm link
 Once installed, simply run the command in your terminal:
 
 ```bash
-rabee-quick-node
+rabee-node-cli
 ```
 
 Or run it directly using Node (if installed from source):

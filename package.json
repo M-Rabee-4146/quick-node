@@ -1,11 +1,19 @@
 {
-  "name": "rabee-quick-node",
-  "version": "1.0.1",
+  "name": "rabee-node-cli",
+  "version": "1.0.0",
   "description": "A professional CLI tool to scaffold structured Node.js projects with MongoDB/SQLite templates.",
   "main": "installer.js",
   "bin": {
-    "rabee-quick-node": "./installer.js"
+    "rabee-node-cli": "./installer.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M-Rabee-4146/rabee-node-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/M-Rabee-4146/rabee-node-cli/issues"
+  },
+  "homepage": "https://github.com/M-Rabee-4146/rabee-node-cli#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,22 +24,22 @@
     "template/"
   ],
   "keywords": [
-  "cli",
-  "node",
-  "mern",
-  "express",
-  "mongodb",
-  "sqlite",
-  "scaffold",
-  "generator",
-  "boilerplate",
-  "project-generator",
-  "authentication",
-  "multer",
-  "fullstack",
-  "backend-template",
-  "quick-node"
-],
+    "cli",
+    "node",
+    "mern",
+    "express",
+    "mongodb",
+    "sqlite",
+    "scaffold",
+    "generator",
+    "boilerplate",
+    "project-generator",
+    "authentication",
+    "multer",
+    "fullstack",
+    "backend-template",
+    "rabee-node-cli"
+  ],
   "author": "",
   "license": "ISC",
   "type": "module",
