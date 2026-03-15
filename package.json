@@ -1,6 +1,7 @@
 {
   "name": "rabee-node-cli",
-  "version": "2.0.0",
+  "preferGlobal": true,
+  "version": "2.1.0",
   "description": "A professional CLI tool to scaffold structured Node.js projects with MongoDB/SQLite templates and React Redux Frontend.",
   "main": "installer.js",
   "bin": {
@@ -24,6 +25,8 @@
   ],
   "keywords": [
     "cli",
+    "global-cli",
+    "project-scaffolding",
     "node",
     "mern",
     "express",
@@ -39,7 +42,7 @@
     "backend-template",
     "rabee-node-cli"
   ],
-  "author": "",
+  "author": "Muhammad Rabee",
   "license": "ISC",
   "type": "module",
   "dependencies": {

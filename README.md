@@ -7,6 +7,24 @@ A powerful and intuitive CLI tool designed to jumpstart your full-stack developm
 
 ---
 
+## 🚀 Quick Start
+
+### Global Installation (Recommended)
+Install the tool globally to jump into development from anywhere:
+
+```bash
+npm install -g rabee-node-cli
+```
+
+### Usage
+Simply run the command in your terminal and follow the interactive prompts:
+
+```bash
+start-rncli
+```
+
+---
+
 ## ✨ Features
 
 - **Interactive CLI**: Easy-to-use prompts powered by `inquirer`.
@@ -20,32 +38,31 @@ A powerful and intuitive CLI tool designed to jumpstart your full-stack developm
 
 ---
 
+## 🛠 For Developers (From Source)
+
+If you want to contribute or run the latest version directly from source:
+
+```bash
+# Clone the repository
+git clone https://github.com/M-Rabee-4146/rabee-node-cli.git
+
+# Navigate to the directory
+cd rabee-node-cli
+
+# Install dependencies
+npm install
+
+# Link the CLI tool
+npm link
+```
+
+---
+
 ## 📋 Requirements
 
 Before using this tool, ensure you have the following installed:
 - **Node.js**: v18.x or higher
 - **NPM**: v9.x or higher
-
----
-
-## 🚀 Getting Started
-
-### Installation
-
-#### 📦 Global Installation (Recommended)
-Install the tool globally to use it from anywhere:
-
-```bash
-npm install -g rabee-node-cli
-```
-
-### Usage
-
-Simply run the command in your terminal and follow the interactive prompts:
-
-```bash
-start-rncli
-```
 
 ---
 
@@ -89,7 +106,7 @@ Created by **Muhammad Rabee**. Dedicated to building tools that simplify the mod
 
 ## 📜 Changelog
 
-### v2.0.0 (Current)
+### v2.1.0 (Current)
 - **New Feature**: Added Premium React Redux Frontend template.
 - **Improved UI**: Applied NPM-inspired branding (Red/White/Black) across all frontend components.
 - **Refactoring**: Simplified Authentication flow and removed legacy POS components.
