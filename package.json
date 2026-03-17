@@ -1,7 +1,7 @@
 {
   "name": "rabee-node-cli",
   "preferGlobal": true,
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "A professional CLI tool to scaffold structured Node.js projects with MongoDB/SQLite templates and React Redux Frontend.",
   "main": "installer.js",
   "bin": {
@@ -48,6 +48,7 @@
   "dependencies": {
     "chalk": "^5.6.2",
     "fs-extra": "^11.3.3",
-    "inquirer": "^13.3.0"
+    "inquirer": "^13.3.0",
+    "ora": "^9.3.0"
   }
 }

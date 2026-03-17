@@ -28,6 +28,8 @@ start-rncli
 ## ✨ Features
 
 - **Interactive CLI**: Easy-to-use prompts powered by `inquirer`.
+- **Smart Connectivity**: Automatically detects internet availability to handle dependency installation gracefully.
+- **Enhanced UX**: Real-time progress feedback using smooth terminal spinners.
 - **Pre-Configured Templates**:
     - **Frontend**: React + Redux + Tailwind CSS with premium **NPM-style branding**.
     - **Backend**: Choose between **MongoDB** (with Mongoose) and **SQLite**.

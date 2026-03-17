@@ -9,7 +9,8 @@ import { FrontendOnly } from "./Configuration/FrontendOnly.js";
 
 const practice = async () => {
     try {
-        console.log(chalk.greenBright("\n 🚀 Welcome to Rabee Node CLI v2.0.0\n"));
+        console.clear();
+        console.log(chalk.greenBright("\n 🚀 Welcome to Rabee Node CLI v2.2.0\n"));
 
         const answer = await inquirer.prompt([{
             type: 'input',
@@ -61,7 +62,6 @@ const practice = async () => {
                 }]).then(async overwriteAnswer => {
                     if (overwriteAnswer.overwrite) {
                         await fsExtra.emptyDir(newPath);
-                        // await fsExtra.copy('./template/dbTemp.js', `${newPath}/New.js`);
                     } else {
                         console.log(chalk.redBright("\nProject creation cancelled. Please choose a different name or remove the existing folder."));
                         process.exit(0);
@@ -92,8 +92,8 @@ const practice = async () => {
         console.log(chalk.greenBright("projects Created Successfully \n"));
 
     } catch (error) {
-
-        console.log(chalk.bold.red.bgWhiteBright("\nGot the error While Creating Project : \n"), error);
+            console.log(chalk.bold.red.bgWhiteBright("\nGot the error While Creating Project : \n"), error);
+            process.exit(1);
     }
 }
 
